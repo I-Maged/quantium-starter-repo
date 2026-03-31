@@ -11,7 +11,6 @@ df = df.sort_values(by='Date')
 
 app = dash.Dash(__name__)
 
-# CSS styling
 colors = {
     'background': '#cacadc',
     'text': '#ffffff',
